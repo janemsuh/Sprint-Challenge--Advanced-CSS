@@ -62,6 +62,12 @@
       }
 
       .btn {
+        .custom-button(@btn-bg-color,@porcelain);
+
+        &:hover {
+          background-color: @porcelain;
+          color: @btn-bg-color;
+        }
       }
     }
 
