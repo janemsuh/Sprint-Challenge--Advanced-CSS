@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive and fully responsive websites are both designed for and viewable on desktop, tablet, and mobile devices. However, fully responsive websites will adjust its layout in an optimized way to the screen no matter the size (i.e., smoothly as the screen size changes), while adaptive websites only adjust to the screen size at discrete, specific breakpoints. Responsive sites achieve this because responsive units are used throughout.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means designing a website for the smallest (i.e., mobile) screens possible, and then scaling elements and features up for larger screens like desktops. Desktop first is the opposite where sites are designed based on the assumption that users will be viewing it on their large desktop screens, and everything must be scaled down in a thoughtful way for mobile devices. In a practical sense, desktop first designs will use "max-width" in their media queries, and mobile first designs will use "min-width."
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+The default font size provided in most browsers is 16px. By setting the font size to 62.5% in the html tag, 1rem will equal 10px (=16 x 0.625). Now it is easier to calculate and use rems (or relative length units).
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is a scripting language that builds upon standard CSS with features to help you write CSS faster, more efficiently, and with more flexibility. It incorporates logic that makes the CSS output that is more readable and easier to maintain.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+So far, I can see and appreciate the power of mixins and variables because it lowers the chance of making mistakes and is very efficient to write. I also really like nesting because it turns the concept of inheritance into something very visual (at the same time, I think it opens the door to making mistakes if you're not careful making the right indents, etc.)
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
